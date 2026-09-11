@@ -10,6 +10,8 @@ opens reviewable pull requests; it must not auto-merge dependency changes.
 - Review major updates quarterly and migrate them separately.
 - Coordinate Node.js changes across `package.json`, CI, Docker, Vercel, and
   contributor documentation instead of allowing a single-file runtime bump.
+  `package.json#engines.node` is the source of truth; see
+  [Vercel Node.js runtime source of truth](./vercel-deployment.md#nodejs-runtime-source-of-truth).
 
 ## Update boundaries
 
